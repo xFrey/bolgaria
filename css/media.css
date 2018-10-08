@@ -1,0 +1,228 @@
+@media screen and (max-width: 1200px) {
+    .header__contacts {
+        width: 190px;
+        float: right;
+    }
+    .header__contacts-tell {
+        margin-left: 0;
+    }
+    .board__item-primarily {
+        height: 100%;
+        padding: 70px 15px 30px;
+    }
+    .board__item-next {
+        height: 100%;
+        padding: 47px 15px 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 4.267em;
+    }
+    .h1-subtext {
+        font-size: 2.933em;
+    }
+    .adventages__block {
+        width: 49%;
+    }
+    .adventages__block:nth-child(2) {
+        margin-right: 0;
+    }
+    .adventages__block:nth-child(3) {
+        margin-right: 0;
+        margin-top: 2%;
+        width: 100%;
+    }
+    .reviews__info_next-item {
+        float: none;
+        display: inline-block;
+    }
+    .form {
+        width: 50%;
+    }
+    .managers-block {
+        height: 650px;
+    }
+    .already {
+        line-height: 0;
+        padding-top: 46px;
+        letter-spacing: 7px;
+    }
+    .move-house-text {
+        margin-top: -14px;
+    }
+    .move-text-box {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 3.133em;
+        letter-spacing: 30px;
+    }
+    .h1-subtext {
+        font-size: 2.200em;
+    }
+    .adventages__block {
+        width: 100%;
+        margin: 2% auto 0;
+    }
+    .reviews__block_angle-left {
+        display: none;
+    }
+    .reviews__block_angle-right {
+        display: none;
+    }
+    .reviews__list_item {
+        width: 100%;
+        padding: 100px 20px 40px 20px;
+    }
+    .reviews__photo-diana {
+        top: 0;
+        left: 50%;
+    }
+    .reviews__info_name {
+        float: none;
+        width: 70%;
+        text-align: center;
+        margin: 0 auto 10px;
+    }
+    .reviews__info_contact {
+        float: none;
+        width: 110px;
+        margin: 0 auto;
+    }
+    .reviews__info_next-item {
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+    .form {
+        width: 80%;
+    }
+    .copy {
+        text-align: right;
+    }
+    .h1-transform {
+        letter-spacing: 12px;
+    }
+    #first {
+        background: #fff;
+    }
+    .partners-block {
+        margin-top: 0;
+        box-shadow: none;
+    }
+    .ten {
+        text-align: center;
+    }
+    .already {
+        text-align: center;
+        padding: 35px 0;
+    }
+    .new-house {
+        text-align: center;
+        line-height: 100%;
+    }
+    .managers-block {
+        height: 730px;
+    }
+    .move-house {
+        width: 100%;
+    }
+    .move-box {
+        width: 100%;
+    }
+    .bg {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .managers-block {
+        height: 720px;
+    }
+}
+
+}
+
+@media screen and (min-width: 576px) {
+    .managers-block {
+        height: 830px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        letter-spacing: 7px;
+    }
+    .h2 {
+        font-size: 2.333em;
+    }
+    .moving__table {
+        height: 230px;
+    }
+    .property__h2 {
+        font-size: 2em;
+    }
+    .block__img-primarily {
+        margin-left: -25px;
+    }
+    .managers-block {
+        margin: 0 auto;
+        width: 90%;
+        height: 610px;
+    }
+    .managers-block-2 {
+        margin-top: 3%;
+    }
+    .move-house {
+        width: 80%;
+    }
+    .move-box {
+        width: 80%;
+    }
+    .move-house-text {
+        margin-top: 10px;
+        text-align: justify;
+    }
+    .h1-transform {
+        letter-spacing: 12px;
+    }
+    .h1-transform-move {
+        letter-spacing: 3px;
+        font-size: 2.4rem;
+    }
+}
+
+
+
+@media screen and (min-width: 576px) {
+    .managers-block {
+        height: 830px;
+    }
+    #first .container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 676px) {
+    .managers-block {
+        height: 730px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .h1-transform {
+        letter-spacing: 5px;
+        font-size: 2.8em;
+    }
+    .h1-transform-move {
+        letter-spacing: 0;
+        font-size: 2.25em;
+    }
+}

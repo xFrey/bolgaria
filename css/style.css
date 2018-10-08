@@ -1,0 +1,303 @@
+.header__heading {
+    height: 77px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.25)
+}
+
+header {
+    height: 412px;
+}
+
+.overlay {
+    height: 412px;
+}
+
+.logo {
+    padding: 10px 0;
+}
+
+nav {
+    margin-top: 22px;
+}
+
+.header__number {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.header__number-phone {
+    color: #23aae2;
+    width: 26px;
+    height: 26px;
+    border: 1px dashed #23aae2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 26px;
+    transform: rotate(90deg)
+}
+
+.tell {
+    color: #fff;
+    font-size: 1.067em;
+    border-bottom: 1px dotted #fff;
+    font-weight: 900;
+}
+
+.h1-transform {
+    font-size: 3.400em;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 17px;
+    margin-top: 94px;
+}
+
+.a_arrow {
+    margin-top: 15px;
+}
+
+#first {
+    background: #f7f7f7;
+    padding-bottom: 79px;
+}
+
+.partners-block {
+    width: 100%;
+    background: #fff;
+    margin-top: -83px;
+    padding-bottom: 74px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1)
+}
+
+.reliability {
+    text-align: center;
+    padding: 55px 75px 35px;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.reliability strong {
+    font-weight: 900;
+}
+
+.clients {
+    text-transform: uppercase;
+}
+
+.ten {
+    font-weight: 900;
+    color: #000;
+    font-size: 1em;
+    text-align: right;
+}
+
+.ten span {
+    font-size: 2.6em;
+    color: #23aae2;
+}
+
+.already {
+    color: #bdbdbd;
+    font-size: 1.267em;
+    font-weight: 100;
+    letter-spacing: 10px;
+    text-align: center;
+    line-height: 90px;
+}
+
+.new-house {
+    text-align: left;
+    font-weight: 900;
+    font-size: 2.010em;
+}
+
+.new-house span {
+    color: #23aae2;
+}
+
+.ready {
+    text-align: center;
+    color: #fff;
+    font-size: 1.533em;
+    font-weight: 900;
+    background: #23aae2;
+    text-transform: uppercase;
+    height: 76px;
+    line-height: 76px;
+    margin-top: 53px;
+}
+
+.partners-block_title {
+    font-size: 1.933em;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    margin: 65px auto 54px;
+}
+
+.managers-block {
+    height: 524px;
+    background: #f4f4f4;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    padding: 35px 35px 44px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.managers-block-1 {
+    margin-left: 10%;
+}
+
+.managers-block-2 {
+    margin-right: 10%;
+}
+
+.managers-img {
+    width: 134px;
+    height: 134px;
+    margin: 0 auto 34px;
+}
+
+.managers-name {
+    font-size: 1.400em;
+    font-weight: 900;
+    color: #000;
+    text-align: center;
+}
+
+.managers-name:after {
+    content: '';
+    display: block;
+    width: 37px;
+    height: 1px;
+    margin: 22px auto;
+    background: #c6c6c6;
+}
+
+.managers-text {
+    color: #545454;
+    font-size: 1.067em;
+    font-weight: 100;
+    text-align: justify;
+}
+
+#advice {
+    box-shadow: inset 0px -50px 30px rgba(0, 0, 0, 0.08)
+}
+
+.advice__h2 {
+    margin-bottom: 0;
+}
+
+
+
+/*            MOVE             */
+
+.move-reliability {
+    font-size: 1.133em;
+}
+
+.h1-transform-move {
+    margin-top: 50px;
+}
+
+.move-house {
+    margin: 0 auto;
+    display: block;
+}
+
+.move-house-text {
+    width: 85%;
+    font-size: 1.067em;
+    font-weight: 100;
+    line-height: 2;
+    margin: 15px auto 0;
+}
+
+.move-text-box {
+    width: 85%;
+    font-size: 1.067em;
+    font-weight: 100;
+    line-height: 2;
+    margin: 96px auto 0;
+}
+
+.move-box {
+    margin: 0 auto;
+    display: block;
+}
+
+.questions {
+    text-align: center;
+    font-size: 1.133em;
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+
+.bg {
+    background: #11b2f5;
+    border-radius: 3px;
+    margin: 0 auto 0 0;
+    width: 80%;
+}
+
+.contacts-form-title {
+    font-size: 1.667em;
+    letter-spacing: 3px;
+}
+
+.contacts-form-title span {
+    letter-spacing: 1px;
+}
+
+.contacts-form-title span {
+    font-size: 1.333rem;
+}
+
+.contacts-form-title-sub {
+    font-size: 1.200em;
+    margin: 15px auto;
+    letter-spacing: 3px;
+}
+
+.form-contacts {
+    width: 70%;
+}
+
+.input-contacts {
+    width: 100%;
+    font-size: 0.733rem;
+}
+
+.button-contacts {
+    font-size: 0.867rem;
+    width: 100%;
+}
+
+.cutaway {
+    max-width: 290px;
+    margin: 130px auto 0;
+    font-size: 1.067rem;
+}
+
+.contacts-title-qw {
+    font-weight: 900;
+    font-size: 1.200em;
+}
+
+.contacts-phone {
+    background: url(../img/Phone.png) no-repeat 10px 13px;
+    padding-left: 50px;
+
+}
+
+.contacts-email {
+    background: url(../img/Email.png) no-repeat 10px 13px;
+    padding-left: 50px;
+}
+
+.contacts-skype {
+    background: url(../img/Skype.png) no-repeat 10px 13px;
+    padding-left: 50px;
+}

@@ -1,0 +1,768 @@
+/*  Спецификация */
+
+@font-face {
+    font-family: 'MuseoSansCyrl';
+    src: url('../fonts/MuseoSansCyrl 100.otf');
+    src: url('../fonts/MuseoSansCyrl 100.otf') format('open-type'),
+    url('../fonts/MuseoSansCyrl 100 Italic.otf') format('open-type'),
+    url('../fonts/MuseoSansCyrl 300 Italic.otf') format('open-type'),
+    url('../fonts/MuseoSansCyrl 300.otf') format('open-type'),
+    url('../fonts/MuseoSansCyrl 900 Italic.otf') format('open-type'),
+    url('../fonts/MuseoSansCyrl 900.otf') format('open-type');
+}
+
+html {
+    font-size: 15px;
+    font-family: 'MuseoSansCyrl';
+}
+
+html {
+    overflow-x: hidden;
+
+}
+
+ul,
+li {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+* {
+    -moz-transition: all 0.3s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+button,
+input,
+button:hover,
+button:active,
+button:focus,
+input:focus,
+input:active {
+    text-decoration: none;
+    outline: none;
+}
+
+.h2 {
+    font-size: 2.8em;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+/*    Шапка     */
+
+header {
+    background: url(../img/banner-bg.png) center center/cover no-repeat;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(79, 134, 157, 0.69);
+    background: -moz-linear-gradient(-45deg, rgba(79, 134, 157, 0.69) 0%, rgba(79, 79, 79, 0.69) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(79, 134, 157, 0.69)), color-stop(100%, rgba(79, 79, 79, 0.69)));
+    background: -webkit-linear-gradient(-45deg, rgba(79, 134, 157, 0.69) 0%, rgba(79, 79, 79, 0.69) 100%);
+    background: -o-linear-gradient(-45deg, rgba(79, 134, 157, 0.69) 0%, rgba(79, 79, 79, 0.69) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(79, 134, 157, 0.69) 0%, rgba(79, 79, 79, 0.69) 100%);
+    background: linear-gradient(135deg, rgba(79, 134, 157, 0.69) 0%, rgba(79, 79, 79, 0.69) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f869d', endColorstr='#4f4f4f', GradientType=1);
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.251);
+    height: 72px;
+}
+
+.logo {
+    background: #23aae2;
+    padding: 7px 0;
+    width: 100%
+}
+
+.nav__list {
+    margin-top: 16px;
+}
+
+.nav__item {
+    text-transform: uppercase;
+    font-size: 11px;
+    float: left;
+    padding: 8px 14px 9px 12px;
+    margin-right: 27px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__item:hover {
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 5px;
+}
+
+.nav__item a {
+    font-size: 0.733em;
+    color: #fff;
+    font-weight: 900;
+}
+
+.header__contacts {
+    font-size: 1.067em;
+    font-weight: 900;
+    color: #fff;
+}
+.slick-dots li{
+bottom: -30px;
+}
+.slick-dots li button:before{
+     width: 26px;
+    height: 26px;
+    border: 1px dashed #23aae2;
+    color: #23aae2;
+    border-radius: 50%;
+    opacity: 1;
+    font-size: 0;
+}
+.slick-dots li.slick-active button:before {
+	background: #23aae2;
+	opacity: 1;
+	font-size: 0px;
+	height: 26px;
+	width: 26px;
+}
+.header__contacts-tell {
+    width: 26px;
+    height: 26px;
+    border: 1px dashed #23aae2;
+    color: #23aae2;
+    border-radius: 50%;
+    text-align: center;
+    transform: rotate(90deg);
+    float: left;
+    margin-left: 67px;
+    margin-top: 24px;
+}
+
+.header__contacts-numbers {
+    float: right;
+    margin-top: 10px;
+}
+
+.menu-burger {
+    margin-top: 18px;
+    float: right;
+    cursor: pointer;
+    position: relative;
+    width: 28px;
+    height: 23px;
+}
+
+.menu-global {
+    backface-visibility: hidden;
+    position: absolute;
+    left: 0;
+    border-top: 7px solid white;
+    width: 100%;
+    transition: 0.55s;
+}
+
+.menu-top {
+    top: 0;
+}
+
+.menu-middle {
+    top: 14px;
+}
+
+.menu-bottom {
+    top: 28px;
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    margin-top: 175px;
+    text-transform: uppercase;
+    letter-spacing: 48px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2)
+}
+
+.h1-subtext {
+    color: #fff;
+    font-size: 3.4em;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+
+.a_arrow {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    border: 1px dotted #fff;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 2.133em;
+    margin-top: 20vh;
+}
+
+/*    Наши преимущества     */
+
+#adventages {
+    padding-bottom: 97px;
+}
+
+.adventages__h2 {
+    margin: 88px 0 68px;
+}
+
+.adventages__block {
+    float: left;
+    width: 32%;
+    height: 370px;
+    margin-right: 2%;
+    background: #f4f4f4;
+    text-align: center;
+    padding-top: 56px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.adventages__block:nth-child(3) {
+    margin-right: 0;
+}
+
+
+.block__img {
+    height: 78px;
+}
+
+.block__title {
+    font-size: 1.333em;
+    font-weight: 900;
+    margin: 27px 0 19px;
+}
+
+.block__title:after {
+    content: '';
+    display: block;
+    background: #c6c6c6;
+    width: 38px;
+    height: 1px;
+    margin: 19px auto 0;
+}
+
+.block__text {
+    font-size: 1.133em;
+    font-weight: 100;
+}
+
+/*    Переезд в Болгарию     */
+
+#moving {
+    background: url(../img/Beach.png) no-repeat center/cover;
+    position: relative;
+    height: 100%;
+}
+
+.moving__overlay {
+    background: rgba(14, 42, 65, 0.86);
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.moving__h2 {
+    color: #fff;
+    margin-top: 95px;
+
+}
+
+.moving__blockquote {
+    color: #fff;
+    text-align: center;
+    font-size: 1.200em;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+.author {
+    color: #fff;
+    text-align: center;
+    font-size: 0.933em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.moving__table {
+    width: 100%;
+    height: 165px;
+    border: 1px dashed #fff;
+    margin: 60px auto 0;
+    text-align: center;
+    font-size: 1.267em;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 25px;
+    position: relative;
+}
+
+.moving__table span {
+    font-weight: 900;
+    font-size: 1.533em;
+}
+
+.moving__table-first {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px dashed #fff;
+    border-radius: 50%;
+    background: #213646;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+    line-height: 30px;
+    padding-left: 3px;
+}
+
+.moving__table-last {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px dashed #fff;
+    border-radius: 50%;
+    background: #213646;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -15px;
+    margin-bottom: -15px;
+    line-height: 30px;
+    padding-left: 3px;
+}
+
+.moving__titlesub {
+    font-size: 2.467em;
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 54px;
+}
+
+.moving__titlesub-sub {
+    color: #f5f6f6;
+    text-align: center;
+    font-size: 1.200em;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.act {
+    width: 216px;
+    height: 62px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 58px;
+    font-size: 1em;
+    font-weight: 900;
+    display: block;
+    margin: 0 auto;
+    background: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.moving__act {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/*    Недвижимость      */
+
+#property {
+    background: url(../img/city-bg.png) no-repeat center /cover;
+    position: relative;
+}
+
+.property__h2 {
+    letter-spacing: 3px;
+    margin-top: 108px;
+}
+
+.property__block {
+    position: relative;
+    width: 100%
+}
+
+.block__img-primarily {
+    position: absolute;
+    margin-top: -68px;
+    top: 0;
+    left: 30%;
+}
+
+.block__img-next {
+    position: absolute;
+    left: 51%;
+    top: 0;
+    margin-top: -60px;
+    margin-left: -4px;
+}
+
+.property__block_board {
+    position: relative;
+}
+
+.board__img {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-left: -94px;
+    margin-top: -132px;
+}
+
+.board__item-primarily {
+    padding: 0 15px;
+    height: 240px;
+    background: #f4f4f4;
+    width: 100%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 155px;
+    padding-top: 70px;
+}
+
+.board__item_title {
+    font-size: 1.333em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.board__item_text {
+    font-size: 1.133em;
+    font-weight: 100;
+}
+
+.board__item-next {
+    padding: 0 15px;
+    height: 144px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    background: #f4f4f4;
+    width: 100%;
+    text-align: center;
+    padding-top: 47px;
+    position: relative;
+
+}
+
+.fa-life-ring {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background: #23aae2;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.733em;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.property__act {
+    color: #23aae2;
+    border-color: #23aae2;
+    margin-top: 60px;
+    margin-bottom: 98px;
+}
+
+.property__act:hover {
+    color: #23aae2;
+}
+
+.moving__act:hover {
+    color: #fff;
+}
+
+/*        Отзывы     */
+
+#reviews {
+    padding-bottom: 80px;
+}
+
+.reviews__h2 {
+    margin: 89px auto 110px;
+}
+
+.reviews__block {
+    width: 92%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.reviews__block_angle-left{
+    position: absolute;
+    font-size: 3em;
+    color: #23aae2;
+    cursor: pointer;
+    top: 45%;
+    margin-left: -35px;
+}
+.reviews__block_angle-right{
+    position: absolute;
+    font-size: 3em;
+    color: #23aae2;
+    cursor: pointer;
+    top: 45%;
+    right: 0;
+}
+.reviews__list_item {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.05);
+    position: relative;
+    padding: 40px 0px 40px;
+    border: 1px solid rgba(248, 248, 248, 0.5);
+    border-radius: 6px;
+}
+
+.reviews__photo-diana{
+    position: absolute;
+    top: 50%;
+    margin-top: -66px;
+    margin-left: -66px;
+}
+.reviews__content{
+    margin-left: 90px;
+}
+.reviews__info {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.reviews__info_name {
+    float: left;
+    font-size: 1.067em;
+}
+
+.reviews__info_contact {
+    float: left;
+    margin-left: 10%;
+    border-bottom: 2px solid #23aae2;
+    color: #23aae2;
+}
+
+.reviews__info_next-item {
+    float: right;
+    font-weight: 100;
+    color: #23aae2;
+    margin-right: 6%;
+}
+
+.reviews__text {
+    font-size: 0.933em;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    width: 90%;
+}
+
+.reviews__circle-list {
+    margin: 51px auto 99px;
+    width: 80px;
+}
+
+.reviews__circle-list_item {
+    content: '';
+    float: left;
+    display: block;
+    width: 19px;
+    height: 19px;
+    background: #23aae2;
+    border: 1px dashed #23aae2;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.reviews__circle-list_item:nth-child(1) {
+    background: none;
+}
+
+.reviews__circle-list_item:nth-child(3) {
+    background: none;
+    margin-right: 0;
+}
+
+#advice {
+    background: #11b2f5 url(../img/confusing-bg.png) repeat-x center;
+}
+
+.advice__h2 {
+    margin-top: 84px;
+    margin-bottom: 33px;
+    color: #fff;
+}
+
+.advice__h2_subtext {
+    font-size: 1.400em;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.advice-caret-down {
+    width: 33px;
+    height: 33px;
+    border: 1px dashed #fff;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1em;
+    margin: 35px auto 30px;
+    display: block;
+    line-height: 33px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    display: block;
+    width: 33%;
+}
+
+.input {
+    width: 100%;
+    height: 67px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    padding-left: 36px;
+    background: #30c2ff;
+    margin-bottom: 9px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 0.867em;
+    font-weight: 400;
+}
+
+.input:focus {
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.15)
+}
+
+.input:focus::-webkit-input-placeholder {
+    color: #fff;
+}
+
+/* webkit */
+
+.input:focus::-moz-placeholder {
+    color: #fff;
+}
+
+/* Firefox 19+ */
+
+.input:focus:-moz-placeholder {
+    color: #fff;
+}
+
+/* Firefox 18- */
+
+.input:focus:-ms-input-placeholder {
+    color: #fff;
+}
+
+/* IE */
+
+.form__button {
+    background: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+    height: 67px;
+    line-height: 67px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 84px;
+}
+
+footer {
+    background: #23aae2;
+    height: 89px;
+}
+
+.footer__logo {
+    margin-top: 14px
+}
+
+.copy {
+    color: #fff;
+    font-weight: 100;
+    margin-top: 34px;
+}
+
+.footer__privacy {
+    font-weight: 100;
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+    margin-top: 34px;
+    display: block;
+    padding-bottom: 3px;
+    width: 210px;
+}
+
+.footer__privacy:hover {
+    color: #fff;
+}
+
+.footer__contacts-tell {
+    color: #fff;
+    border: 1px dashed #fff;
+    margin-top: 35px;
+}
+
+.footer__contacts-numbers {
+    color: #fff;
+    font-size: 1.067em;
+    font-weight: 900;
+    margin-top: 20px;
+}
